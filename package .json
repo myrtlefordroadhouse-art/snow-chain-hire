@@ -1,50 +1,8 @@
 {
-  "name": "shell-snow-chain-hire-form",
-  "version": "1.0.0",
-  "description": "Snow Chain & Toboggan Hire Agreement Form with Email Integration",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "NODE_ENV=development TEST_MODE=true node server.js",
-    "test": "NODE_ENV=test node server.js",
-    "prod": "NODE_ENV=production node server.js"
-  },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "nodemailer": "^6.9.4",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "optionalDependencies": {
-    "@sendgrid/mail": "^7.7.0",
-    "aws-sdk": "^2.1450.0",
-    "express-rate-limit": "^7.0.0"
-  },
-  "keywords": [
-    "snow-chain",
-    "hire-form",
-    "email",
-    "agreement",
-    "myrtleford",
-    "shell"
-  ],
-  "author": "SHELL Myrtleford",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shellmyrtleford/snow-chain-hire-form.git"
-  },
-  "bugs": {
-    "url": "https://github.com/shellmyrtleford/snow-chain-hire-form/issues"
-  },
-  "homepage": "https://github.com/shellmyrtleford/snow-chain-hire-form#readme"
+"name": "shell-snow-chain-hire-form",
+"version": "1.0.0",
+"description": "Snow Chain Hire Form with Email Integration",
+"dependencies": {
+"nodemailer": "^6.9.4"
+}
 }
